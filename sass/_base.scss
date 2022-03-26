@@ -40,3 +40,14 @@ $font-display: 'Josefin Sans', sans-serif;
         flex: 0 0 95vw;
     }
  }
+ .row{
+    display: flex;
+    flex: 0 0 20vw;
+    margin: 4rem;
+    
+}
+.row-2{
+    display: flex;
+    // margin: 2rem ;
+    justify-content: space-between;
+}

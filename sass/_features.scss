@@ -1,21 +1,20 @@
 .features{
-    background-color:white;
+    
+ 
+
     flex: 0 0 95vh;
     display: flex;
     flex-direction: column;
     
     
 }
-.row{
-    display: flex;
-    flex: 0 0 20vw;
-    
-}
+
 .feature{
     
-  
-    flex: 0 0 20vw;
+    width: 33.3333%;
     margin: 6rem;
+
+    flex: 0 0 20vw;    
     display: flex;
 
     &__typing{
@@ -25,18 +24,22 @@
 
 
     &__icon{
-        fill: black;
-        width: 4.5rem;
-        height: 4.5rem;
-        border: 1px solid black;
-        margin-right: 0rem;
+        fill: $color-primary;
+        
+        
+        transform: translateY(-1rem);
+
+        svg {
+            fill: $color-primary;
+            width: 2.5rem;
+            height: 2.5rem;
+            margin-right: 1rem;
+        }
     }
 
     &__text{
         font-size: 1.7rem;
-        color: black;  
-        margin-top: 3rem;
-        margin-left: 3rem;   
+         
     }
     
     

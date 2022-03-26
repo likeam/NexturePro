@@ -23,6 +23,16 @@ body {
     flex-direction: column;
     flex: 0 0 95vw; }
 
+.row {
+  display: flex;
+  flex: 0 0 20vw;
+  margin: 4rem; }
+
+.row-2 {
+  display: flex;
+  margin: 2rem;
+  justify-content: space-between; }
+
 .heading-4 {
   font-family: "Josefin Sans", sans-serif;
   font-size: 1.9rem;
@@ -75,33 +85,28 @@ body {
   background-color: brown; }
 
 .features {
-  background-color: white;
   flex: 0 0 95vh;
   display: flex;
   flex-direction: column; }
 
-.row {
-  display: flex;
-  flex: 0 0 20vw; }
-
 .feature {
-  flex: 0 0 20vw;
+  width: 33.3333%;
   margin: 6rem;
+  flex: 0 0 20vw;
   display: flex; }
   .feature__typing {
     display: flex;
     flex-direction: column; }
   .feature__icon {
-    fill: black;
-    width: 4.5rem;
-    height: 4.5rem;
-    border: 1px solid black;
-    margin-right: 0rem; }
+    fill: #c69963;
+    transform: translateY(-1rem); }
+    .feature__icon svg {
+      fill: #c69963;
+      width: 2.5rem;
+      height: 2.5rem;
+      margin-right: 1rem; }
   .feature__text {
-    font-size: 1.7rem;
-    color: black;
-    margin-top: 3rem;
-    margin-left: 3rem; }
+    font-size: 1.7rem; }
 
 .story {
   display: flex;
@@ -142,8 +147,53 @@ body {
     margin-bottom: 4rem; }
 
 .homes {
-  flex: 0 0 150vh;
-  background-color: lightslategray; }
+  flex: 0 0 150vh; }
+
+.home {
+  background-color: #f9f7f6;
+  margin: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .home__img {
+    width: 100%;
+    z-index: 1;
+    position: relative; }
+  .home__like {
+    position: absolute;
+    fill: #c69963;
+    height: 2.5rem;
+    width: 2.5rem;
+    z-index: 22;
+    justify-self: end;
+    margin: 1rem;
+    top: 1rem;
+    right: 1rem; }
+  .home__name {
+    position: absolute;
+    z-index: 30;
+    width: 20%;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 1.25rem;
+    background-color: #101d2c;
+    color: #fff;
+    font-weight: 400;
+    margin-top: 24rem;
+    margin-left: 1rem; }
+  .home__location, .home__rooms {
+    margin-top: 2.5rem; }
+  .home__location, .home__rooms, .home__area, .home__price {
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    display: flex;
+    align-items: center; }
+    .home__location svg, .home__rooms svg, .home__area svg, .home__price svg {
+      fill: #c69963;
+      height: 2rem;
+      width: 2rem;
+      margin-right: 1rem; }
 
 .footer {
   flex: 0 0 45vh;
