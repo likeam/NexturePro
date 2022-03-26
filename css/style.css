@@ -23,6 +23,12 @@ body {
     flex-direction: column;
     flex: 0 0 95vw; }
 
+.heading-4 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.9rem;
+  font-weight: 400;
+  margin-left: 0; }
+
 .sidebar {
   background-color: red;
   flex: 0 0 5vw; }
@@ -32,7 +38,7 @@ body {
   flex: 0 0 80vh; }
   .header__main {
     flex: 0 0 65vw;
-    background-color: orange; }
+    background-color: #f9f7f6; }
   .header__retalors {
     flex: 1;
     background-color: green; }
@@ -42,8 +48,33 @@ body {
   background-color: brown; }
 
 .features {
-  background-color: blue;
-  flex: 0 0 95vh; }
+  background-color: white;
+  flex: 0 0 95vh;
+  display: flex;
+  flex-direction: column; }
+
+.row {
+  display: flex;
+  flex: 0 0 20vw; }
+
+.feature {
+  flex: 0 0 20vw;
+  margin: 6rem;
+  display: flex; }
+  .feature__typing {
+    display: flex;
+    flex-direction: column; }
+  .feature__icon {
+    fill: black;
+    width: 4.5rem;
+    height: 4.5rem;
+    border: 1px solid black;
+    margin-right: 0rem; }
+  .feature__text {
+    font-size: 1.7rem;
+    color: black;
+    margin-top: 3rem;
+    margin-left: 3rem; }
 
 .story {
   display: flex;

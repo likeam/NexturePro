@@ -1,11 +1,12 @@
 .header{
+    
 
     display: flex;
     flex: 0 0 80vh;
 
     &__main{
         flex: 0 0 65vw;
-        background-color: orange;
+        background-color: $color-grey-light-1;
     }
 
     &__retalors{

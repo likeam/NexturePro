@@ -1,4 +1,43 @@
 .features{
-    background-color: blue;
+    background-color:white;
     flex: 0 0 95vh;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.row{
+    display: flex;
+    flex: 0 0 20vw;
+    
+}
+.feature{
+    
+  
+    flex: 0 0 20vw;
+    margin: 6rem;
+    display: flex;
+
+    &__typing{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    &__icon{
+        fill: black;
+        width: 4.5rem;
+        height: 4.5rem;
+        border: 1px solid black;
+        margin-right: 0rem;
+    }
+
+    &__text{
+        font-size: 1.7rem;
+        color: black;  
+        margin-top: 3rem;
+        margin-left: 3rem;   
+    }
+    
+    
 }
