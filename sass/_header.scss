@@ -1,0 +1,15 @@
+.header{
+
+    display: flex;
+    min-height: 80vh;
+
+    &__main{
+        flex: 0 0 65vw;
+        background-color: orange;
+    }
+
+    &__retalors{
+        flex: 1;
+        background-color: green;
+    }
+}

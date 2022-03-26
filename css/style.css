@@ -1,2 +1,65 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+  font-family: "Nunito", sans-serif;
+  color: #6D5D4B;
+  font-weight: 300;
+  line-height: 1.6; }
+
+.container {
+  display: flex;
+  min-height: 80vh; }
+  .container__row {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 95vw; }
+
 .sidebar {
-  background-color: var(#c69963); }
+  background-color: red;
+  flex: 0 0 5vw; }
+
+.header {
+  display: flex;
+  min-height: 80vh; }
+  .header__main {
+    flex: 0 0 65vw;
+    background-color: orange; }
+  .header__retalors {
+    flex: 1;
+    background-color: green; }
+
+.gallery {
+  min-height: 80vh;
+  background-color: brown; }
+
+.features {
+  background-color: blue;
+  min-height: 95vh; }
+
+.story {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: row; }
+  .story__pictures {
+    flex: 50%;
+    background-color: orchid; }
+  .story__content {
+    flex: 50%;
+    background-color: aqua; }
+
+.homes {
+  min-height: 150vh;
+  background-color: lightslategray; }
+
+.footer {
+  min-height: 45vh;
+  background-color: greenyellow; }

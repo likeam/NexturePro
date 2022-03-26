@@ -1,0 +1,13 @@
+.story{
+    min-height: 80vh;
+    display: flex;
+    flex-direction: row;
+    &__pictures{
+        flex: 50%;
+        background-color: orchid;
+    }
+    &__content{
+        flex: 50%;
+        background-color: aqua;
+    }
+}
