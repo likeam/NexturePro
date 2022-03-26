@@ -1,7 +1,8 @@
 .story{
-    min-height: 80vh;
+    
     display: flex;
     flex-direction: row;
+    flex: 0 0 80vh;;
     &__pictures{
         flex: 50%;
         background-color: orchid;

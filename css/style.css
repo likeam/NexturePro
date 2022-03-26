@@ -29,7 +29,7 @@ body {
 
 .header {
   display: flex;
-  min-height: 80vh; }
+  flex: 0 0 80vh; }
   .header__main {
     flex: 0 0 65vw;
     background-color: orange; }
@@ -38,17 +38,17 @@ body {
     background-color: green; }
 
 .gallery {
-  min-height: 80vh;
+  flex: 0 0 80vh;
   background-color: brown; }
 
 .features {
   background-color: blue;
-  min-height: 95vh; }
+  flex: 0 0 95vh; }
 
 .story {
-  min-height: 80vh;
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+  flex: 0 0 80vh; }
   .story__pictures {
     flex: 50%;
     background-color: orchid; }
@@ -57,9 +57,9 @@ body {
     background-color: aqua; }
 
 .homes {
-  min-height: 150vh;
+  flex: 0 0 150vh;
   background-color: lightslategray; }
 
 .footer {
-  min-height: 45vh;
+  flex: 0 0 45vh;
   background-color: greenyellow; }
