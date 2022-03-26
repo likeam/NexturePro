@@ -29,6 +29,33 @@ body {
   font-weight: 400;
   margin-left: 0; }
 
+.heading-2 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-size: 4rem;
+  font-style: italic; }
+
+.heading-3 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: #c69963;
+  text-transform: uppercase; }
+
+.btn {
+  background-color: #c69963;
+  color: #fff;
+  border: none;
+  border-radius: 0;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  padding: 1.8rem 3rem;
+  cursor: pointer;
+  transition: all .2s; }
+  .btn:hover {
+    background-color: #B28451; }
+
 .sidebar {
   background-color: red;
   flex: 0 0 5vw; }
@@ -81,11 +108,38 @@ body {
   flex-direction: row;
   flex: 0 0 80vh; }
   .story__pictures {
-    flex: 50%;
-    background-color: orchid; }
+    background-color: #c69963;
+    background-image: linear-gradient(rgba(198, 153, 99, 0.5), rgba(198, 153, 99, 0.5)), url(../img/back.jpg);
+    background-size: cover;
+    position: relative;
+    flex: 50%; }
+  .story__img-1 {
+    width: 65%;
+    box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.1);
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
+  .story__img-2 {
+    width: 63%;
+    z-index: 20;
+    box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
+    position: absolute;
+    margin: 0;
+    top: 70%;
+    left: 83%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
   .story__content {
-    flex: 50%;
-    background-color: aqua; }
+    background-color: #f9f7f6;
+    padding: 6rem 8vw;
+    flex: 50%; }
+  .story__text {
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-bottom: 4rem; }
 
 .homes {
   flex: 0 0 150vh;
