@@ -49,7 +49,8 @@ body {
   font-weight: 400;
   font-size: 1.6rem;
   color: #c69963;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin-bottom: 2rem; }
 
 .heading-1 {
   font-family: "Josefin Sans", sans-serif;
@@ -82,7 +83,8 @@ body {
   background-color: #fff;
   height: 2px;
   width: 4.5rem;
-  margin-top: 4rem; }
+  margin-top: 4rem;
+  margin-left: 1rem; }
   .nav-btn::before, .nav-btn::after {
     background-color: #fff;
     height: 2px;
@@ -107,15 +109,16 @@ body {
     padding-top: 4rem;
     justify-content: center; }
   .header__retalors {
-    flex: 1;
-    background-color: green; }
+    flex: 1; }
   .header__logo {
     height: 3rem;
     margin-left: 38rem;
     margin-bottom: 8rem; }
   .header__btn {
     align-self: start;
-    justify-self: start; }
+    justify-self: start;
+    margin-top: 2rem;
+    margin-bottom: 2rem; }
   .header__seenon-text {
     display: grid;
     grid-template-columns: 1fr max-content 1fr;
@@ -123,7 +126,8 @@ body {
     align-items: center;
     font-size: 1.6rem;
     color: #aaa;
-    padding-top: 10rem; }
+    padding-top: 10rem;
+    margin-bottom: 2rem; }
     .header__seenon-text::before, .header__seenon-text::after {
       content: "";
       height: 1px;
