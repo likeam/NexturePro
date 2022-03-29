@@ -1,6 +1,6 @@
 .features{
     
-    margin: 15rem 0;
+    margin: 15rem 8rem;
 
     flex: 0 0 95vh;
     display: flex;
@@ -11,37 +11,34 @@
 
 .feature{
     
-    width: 33.3333%;
     margin: 6rem;
 
-    flex: 1 1 20vw;    
+    flex: 1 1 25rem;    
     display: flex;
 
     &__typing{
         display: flex;
         flex-direction: column;
-        margin-left: 2rem 0;
+        margin-left: 2rem ;
+        font-size: 1.7rem;
     }
 
 
     &__icon{
         fill: $color-primary;
-        width: 4.5rem;
-        height: 4.5rem;
-        margin-right: 1rem 0;
-        // transform: translateY(-1rem);
-
+        width: 8.5rem;
+        height: 8.5rem;
+       
+        transform: translateY(-1rem);
+    }
         svg {
             fill: $color-primary;
-            width: 2.5rem;
-            height: 2.5rem;
-            margin-right: 1rem;
-        }
-    }
+            width: 18.5rem;
+            height: 4.5rem;
+        }    
 
     &__text{
         font-size: 1.7rem;         
     }
-    
     
 }

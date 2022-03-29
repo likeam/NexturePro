@@ -48,6 +48,14 @@ $font-display: 'Josefin Sans', sans-serif;
 }
 .row-2{
     display: flex;
-    // margin: 2rem ;
+    
     justify-content: space-between;
+   
+}
+
+.row-1{
+    display: flex;
+    flex: 0 0 20vw;
+    margin: 4rem;
+    
 }
